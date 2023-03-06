@@ -1,10 +1,11 @@
 @font-face {
     font-family: "norse";
-    src: url("fonts/norse-bold-webfont.woff2") format("woff2"),url("fonts/norse-bold-webfont.woff") format("woff");
+    src: url("fonts/norse-bold-webfont.woff2") format("woff2"),
+        url("fonts/norse-bold-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
-  }
-  
+}
+
 body {
     font-family: Roboto, sans-serif;
     margin: 0;
@@ -14,45 +15,74 @@ body {
     flex-direction: row;
 }
 
-.splash-art{ 
+.splash-art {
     width: 700px;
-    background: rgb(168, 168, 168) url("./imgs/roan-lavery-lvy_VvdLmnA-unsplash.jpg") no-repeat;
-    background-size:cover;
+    background: rgb(168, 168, 168)
+        url("./imgs/roan-lavery-lvy_VvdLmnA-unsplash.jpg") no-repeat;
+    background-size: cover;
 
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-direction:column;
+    flex-direction: column;
 }
 
-#artist{
+#artist {
     color: rgb(255, 255, 255);
 
     padding: 10px;
 }
 
-.signup{
+.signup {
     width: 1000px;
     background-color: rgb(220, 220, 220);
 }
 
-#logo{
+#logo {
     color: rgb(255, 255, 255);
-    background-color: rgba(0, 0, 0,0.5) ;
-    
-    width: 600px;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    width: inherit;
     height: 150px;
     margin-top: 250px;
-    font: 5em "norse",sans-serif;
-    
+    font: 5em "norse", sans-serif;
+
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.odin-logo{
-
+.odin-logo {
     width: auto;
     height: 125px;
+}
 
+fieldset {
+    background-color: white;
+    border: 0;
+    box-shadow: 5px 7px 5px rgb(175, 175, 175);
+
+    padding: 50px;
+}
+
+legend {
+    position: relative;
+    top: 40px;
+    left: 0;
+
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.user-info {
+    max-height: 220px;
+    margin-right: 400px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+label {
+    display: block;
 }
