@@ -98,3 +98,23 @@ legend {
 label {
     display: block;
 }
+
+button {
+    background-color: #596d48;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    height: 50px;
+    width: 220px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.bot {
+    padding-left: 50px;
+}
+
+strong {
+    color: #596d48;
+}
