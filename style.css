@@ -35,7 +35,7 @@ body {
 
 .signup {
     width: 1000px;
-    background-color: rgb(220, 220, 220);
+    background-color: rgb(240, 240, 240);
 }
 
 #logo {
@@ -55,6 +55,18 @@ body {
 .odin-logo {
     width: auto;
     height: 125px;
+}
+
+.top-first {
+    padding-top: 200px;
+}
+
+.top,
+.top-first {
+    padding-left: 50px;
+    max-width: 750px;
+    font-size: x-large;
+    font-weight: bold;
 }
 
 fieldset {
