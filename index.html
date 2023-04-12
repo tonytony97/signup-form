@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Sign-up Form</title>
         <link rel="stylesheet" href="style.css" />
+        <script src="pass-match.js" defer></script>
     </head>
     <body>
         <div class="splash-art">
@@ -20,17 +21,11 @@
 
             <div id="artist">
                 Photo by
-                <a
-                    href="https://unsplash.com/@roanlavery"
-                    target="_blank"
-                    rel="roan lavery"
-                >
+                <a href="https://unsplash.com/@roanlavery" target="_blank">
                     Roan Lavery</a
                 >
                 on
-                <a href="https://unsplash.com/" target="_blank" rel="unsplash"
-                    >Unsplash</a
-                >
+                <a href="https://unsplash.com/" target="_blank">Unsplash</a>
             </div>
         </div>
 
@@ -55,13 +50,9 @@
                             <input type="email" id="mail" name="e_mail" />
                         </p>
                         <p>
-                            <label for="pass">PASSWORD</label>
-                            <input
-                                class="error"
-                                type="password"
-                                id="pass"
-                                name="pass_word"
-                            />
+                            <label for="pass1">PASSWORD</label>
+                            <input type="password" id="pass1" name="pass1" />
+                            <span class="error" aria-live="polite"></span>
                         </p>
                         <p>
                             <label for="name2">LAST NAME</label>
@@ -69,25 +60,19 @@
                         </p>
                         <p>
                             <label for="phone">PHONE NUMBER</label>
-                            <input type="tel" id="2" name="phone_num" />
+                            <input type="tel" id="phone" name="phone_num" />
                         </p>
                         <p>
                             <label for="pass2">CONFIRM PASSWORD</label>
-                            <input
-                                class="error"
-                                type="password"
-                                id="pass2"
-                                name="confirm_pass"
-                            />
+                            <input type="password" id="pass2" name="pass2" />
                         </p>
                     </div>
                 </fieldset>
+                <div class="bot">
+                    <button type="submit">Create Account</button>
+                    <p>Already have an account? <strong>Log in</strong></p>
+                </div>
             </form>
-
-            <div class="bot">
-                <button type="submit">Create Account</button>
-                <p>Already have an account? <strong>Log in</strong></p>
-            </div>
         </div>
     </body>
 </html>
